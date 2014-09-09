@@ -1,6 +1,6 @@
 {
-    "name": "laracasts/flash",
-    "description": "Easy flash notifications",
+    "name": "mnshankar/flash",
+    "description": "Easy flash notifications PHP-5.3",
     "license": "MIT",
     "authors": [
         {
