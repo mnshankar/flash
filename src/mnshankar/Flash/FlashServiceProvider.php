@@ -25,7 +25,7 @@ class FlashServiceProvider extends ServiceProvider {
 
         $this->app->bindShared('flash', function()
         {
-            return $this->app->make('mnshankar\Flash\FlashNotifier');
+            return \App::make('mnshankar\Flash\FlashNotifier');
         });
     }
 

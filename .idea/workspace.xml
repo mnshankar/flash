@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba9b8e6-3b5b-4e92-be6c-5327d75fe8ed" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\Flash.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\FlashNotifier.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\FlashServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\LaravelSessionStore.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\SessionStore.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\Flash.php" afterPath="$PROJECT_DIR$/src/mnshankar/Flash/Flash.php" />
-      <change type="MOVED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\FlashNotifier.php" afterPath="$PROJECT_DIR$/src/mnshankar/Flash/FlashNotifier.php" />
-      <change type="MOVED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\FlashServiceProvider.php" afterPath="$PROJECT_DIR$/src/mnshankar/Flash/FlashServiceProvider.php" />
-      <change type="MOVED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\LaravelSessionStore.php" afterPath="$PROJECT_DIR$/src/mnshankar/Flash/LaravelSessionStore.php" />
-      <change type="MOVED" beforePath="C:\Users\nshankar\Downloads\Apps\code\flash\src\Laracasts\Flash\SessionStore.php" afterPath="$PROJECT_DIR$/src/mnshankar/Flash/SessionStore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/FlashTest.php" afterPath="$PROJECT_DIR$/tests/FlashTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/message.blade.php" afterPath="$PROJECT_DIR$/src/views/message.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mnshankar/Flash/FlashServiceProvider.php" afterPath="$PROJECT_DIR$/src/mnshankar/Flash/FlashServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,6 +47,7 @@
         <option value="$PROJECT_DIR$/src/Laracasts/Flash/SessionStore.php" />
         <option value="$PROJECT_DIR$/tests/FlashTest.php" />
         <option value="$PROJECT_DIR$/src/views/message.blade.php" />
+        <option value="$PROJECT_DIR$/src/mnshankar/Flash/FlashServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -300,26 +289,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/message.blade.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07072136" vertical-offset="0" max-vertical-offset="707">
-          <caret line="2" column="177" selection-start-line="2" selection-start-column="177" selection-end-line="2" selection-end-column="177" />
+        <state vertical-scroll-proportion="0.6180556" vertical-offset="30" max-vertical-offset="750">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mnshankar/Flash/FlashServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="710" max-vertical-offset="1450">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.6805556" vertical-offset="185" max-vertical-offset="1450">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/src/views/message.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6180556" vertical-offset="30" max-vertical-offset="750">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.07072136" vertical-offset="0" max-vertical-offset="707">
+          <caret line="2" column="177" selection-start-line="2" selection-start-column="177" selection-end-line="2" selection-end-column="177" />
           <folding />
         </state>
       </provider>
