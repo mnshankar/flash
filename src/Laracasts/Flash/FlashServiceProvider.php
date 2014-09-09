@@ -46,7 +46,7 @@ class FlashServiceProvider extends ServiceProvider {
      */
     public function provides()
     {
-        return ['flash'];
+        return array('flash');
     }
 
 }
