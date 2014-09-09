@@ -1,4 +1,4 @@
-<?php namespace Laracasts\Flash;
+<?php namespace mnshankar\Flash;
 
 use Illuminate\Support\Facades\Facade;
 

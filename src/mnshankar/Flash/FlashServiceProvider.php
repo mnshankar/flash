@@ -1,4 +1,4 @@
-<?php namespace Laracasts\Flash;
+<?php namespace mnshankar\Flash;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,13 +19,13 @@ class FlashServiceProvider extends ServiceProvider {
     public function register()
     {
         $this->app->bind(
-            'Laracasts\Flash\SessionStore',
-            'Laracasts\Flash\LaravelSessionStore'
+            'mnshankar\Flash\SessionStore',
+            'mnshankar\Flash\LaravelSessionStore'
         );
 
         $this->app->bindShared('flash', function()
         {
-            return $this->app->make('Laracasts\Flash\FlashNotifier');
+            return $this->app->make('mnshankar\Flash\FlashNotifier');
         });
     }
 
@@ -36,7 +36,7 @@ class FlashServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-        $this->package('laracasts/flash');
+        $this->package('mnshankar/flash');
     }
 
     /**

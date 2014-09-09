@@ -6,7 +6,7 @@ First, pull in the package through Composer.
 
 ```js
 "require": {
-    "laracasts/flash": "~1.0"
+    "mnshankar/flash": "~1.0"
 }
 ```
 
@@ -14,7 +14,7 @@ And then, if using Laravel, include the service provider within `app/config/app.
 
 ```php
 'providers' => [
-    'Laracasts\Flash\FlashServiceProvider'
+    'mnshankar\Flash\FlashServiceProvider'
 ];
 ```
 
@@ -22,7 +22,7 @@ And, for convenience, add a facade alias to this same file at the bottom:
 
 ```php
 'aliases' => [
-    'Flash' => 'Laracasts\Flash\Flash'
+    'Flash' => 'mnshankar\Flash\Flash'
 ];
 ```
 
@@ -105,10 +105,10 @@ Because flash messages and overlays are so common, if you want, you may use (or 
 If you need to modify the flash message partials, you can run:
 
 ```bash
-php artisan view:publish laracasts/flash
+php artisan view:publish mnshankar/flash
 ```
 
-The two package views will now be located in the `app/views/packages/laracasts/flash/' directory.
+The two package views will now be located in the `app/views/packages/mnshankar/flash/' directory.
 
 ```php
 Flash::message('Welcome aboard!');
@@ -127,12 +127,12 @@ return Redirect::home();
 ![https://dl.dropboxusercontent.com/u/774859/GitHub-Repos/flash/error.png](https://dl.dropboxusercontent.com/u/774859/GitHub-Repos/flash/error.png)
 
 ```php
-Flash::overlay('You are now a Laracasts member!');
+Flash::overlay('You are now a mnshankar member!');
 
 return Redirect::home();
 ```
 
 ![https://dl.dropboxusercontent.com/u/774859/GitHub-Repos/flash/overlay.png](https://dl.dropboxusercontent.com/u/774859/GitHub-Repos/flash/overlay.png)
 
-> [Learn exactly how to build this very package on Laracasts!](https://laracasts.com/lessons/flexible-flash-messages)
+> [Learn exactly how to build this very package on mnshankar!](https://mnshankar.com/lessons/flexible-flash-messages)
 
