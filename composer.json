@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mnshankar\\Flash\\": "src/"
+            "mnshankar\\Flash\\": "src"
         }
     },
     "minimum-stability": "stable"
